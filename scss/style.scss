@@ -48,7 +48,14 @@ nav {
 }
 
 main {
+  h1 {
+    font-size: 48px;
+    text-align: center;
+  }
   h2 {
-    font-size: 28px;
+    font-size: 30px;
+  }
+  span {
+    display: block;
   }
 }

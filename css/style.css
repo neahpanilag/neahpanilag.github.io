@@ -114,6 +114,13 @@ nav a {
   color: inherit;
 }
 
+main h1 {
+  font-size: 48px;
+  text-align: center;
+}
 main h2 {
-  font-size: 28px;
+  font-size: 30px;
+}
+main span {
+  display: block;
 }
