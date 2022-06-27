@@ -4,14 +4,51 @@
 body {
   width: 100%;
   max-width: 1920px;
+  color: #333;
 }
 
 .wrapper {
   width: 1400px;
+  margin: 0 auto;
 }
 
 header {
   width: 100%;
-  height: 500px;
-  background: url(/img/home-banner.jpg);
+  height: 630px;
+  background: url(/img/home-banner.jpg) center bottom no-repeat;
+  background-size: cover;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  background: rgba($secondary,.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  li {
+    list-style: none;
+    margin-left: 20px;
+
+    :last-child {
+      margin-left: 0;
+    }
+  }
+  a {
+    font-size: 18px;
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+main {
+  h2 {
+    font-size: 28px;
+  }
 }
