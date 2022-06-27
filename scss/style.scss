@@ -1,0 +1,17 @@
+@import './resets';
+@import './colors';
+
+body {
+  width: 100%;
+  max-width: 1920px;
+}
+
+.wrapper {
+  width: 1400px;
+}
+
+header {
+  width: 100%;
+  height: 500px;
+  background: url(/img/home-banner.jpg);
+}
