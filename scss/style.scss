@@ -48,14 +48,18 @@ nav {
 }
 
 main {
+  padding: 40px 0;
   h1 {
+    margin: 0 0 30px;
     font-size: 48px;
     text-align: center;
   }
   h2 {
     font-size: 30px;
+    text-align: center;
   }
   span {
+    margin: 15px 0 0;
     display: block;
   }
 }
